@@ -1,6 +1,11 @@
+# import libraries
 import pandas
 
 
+# ***** Functions Go Here *****
+
+# checks that input is either a float or an interger that is more that zero
+# takes in custom error messages.
 def num_check(question, error, num_type):
     valid = False
     while not valid:
@@ -18,6 +23,26 @@ def num_check(question, error, num_type):
             print(error)
 
 
+# checks that user has entered yes / no to a question
+def yes_no(question):
+
+    to_check = ["yes", "no"]
+
+    valid = False
+    while not valid:
+
+        response = input(question).lower()
+
+        for var_item in to_check:
+            if response == var_item:
+                return response
+            elif response == var_item[0]:
+                return var_item
+
+        print("Please enter either yes or no...\n")
+
+
+# check that string is not blank
 def not_blank(question, error):
 
     valid = False
@@ -36,8 +61,9 @@ def currency(x):
     return "${:.2f}".format(x)
 
 
-# gets expenses, returns list which has the data frame and sub total
-#
+# gets expenses,
+# returns list which has,
+# the data frame and sub total
 def get_expenses(var_fixed):
     # set up dictionary and lists
 
@@ -58,10 +84,15 @@ def get_expenses(var_fixed):
         print()
         # get name, quantity and item
         item_name = not_blank("Item name:", "The component name can't be blank.")
+
         if item_name.lower() == "xxx":
             break
-        print()
-        quantity = num_check("Quantity:", "The amount must be a whole number more then zero", int)
+
+        if var_fixed == "variable":
+            quantity = num_check("Quantity:", "The amount must be a whole number more then zero", int)
+
+        else:
+            quantity = 1
 
         print()
         price = num_check("How much for a single item? $", "The price must be a number <more than 0>", float)
@@ -90,19 +121,38 @@ def get_expenses(var_fixed):
     return [expense_frame, sub_total]
 
 
-# *** Main stuff starts here ***
-
+# ***** Main Stuff *****
 # get product name
 product_name = not_blank("Product name: ", "The product name can't be blank.")
 
-varible_expenses = get_expenses("variable")
-variable_frame = varible_expenses[0]
-variable_sub = varible_expenses[1]
+# get variable costs
+variable_expenses = get_expenses("variable")
+variable_frame = variable_expenses[0]
+variable_sub = variable_expenses[1]
+
+# get fixed costs
+fixed_expenses = get_expenses("fixed")
+fixed_frame = fixed_expenses[0]
+fixed_sub = fixed_expenses[1]
+
+#
+
+#
+
+#
+
+#
 
 # *** Printing area ***
 
-print()
+print("*** Variable Costs ***")
 print(variable_frame)
 print()
 
 print("Variable Costs: ${:.2f}".format(variable_sub))
+
+print("*** Fixed Costs ***")
+print(fixed_frame[['Cost']])
+print()
+
+print("Fixed Costs: ${:.2f}".format(fixed_sub))
