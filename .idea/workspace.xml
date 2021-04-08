@@ -40,8 +40,9 @@
               <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding>
                 <element signature="e#62#323#0" expanded="false" />
-                <element signature="e#363#571#0" expanded="false" />
-                <element signature="e#623#649#0" expanded="false" />
+                <marker date="1617842883674" expanded="false" signature="357:568" ph="..." />
+                <marker date="1617842883674" expanded="true" signature="397:568" ph="..." />
+                <marker date="1617842883674" expanded="false" signature="618:649" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="02_variable_costs_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02_variable_costs_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+            <state relative-caret-position="1003">
+              <caret line="84" column="54" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
               <folding>
                 <element signature="e#62#323#0" expanded="false" />
                 <element signature="e#363#571#0" expanded="false" />
@@ -315,7 +316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="923" y="0" width="1004" height="1047" extended-state="0" />
+    <frame x="923" y="0" width="1004" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -420,16 +421,17 @@
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding>
             <element signature="e#62#323#0" expanded="false" />
-            <element signature="e#363#571#0" expanded="false" />
-            <element signature="e#623#649#0" expanded="false" />
+            <marker date="1617842883674" expanded="false" signature="357:568" ph="..." />
+            <marker date="1617842883674" expanded="true" signature="397:568" ph="..." />
+            <marker date="1617842883674" expanded="false" signature="618:649" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_variable_costs_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+        <state relative-caret-position="1003">
+          <caret line="84" column="54" selection-start-line="84" selection-start-column="54" selection-end-line="84" selection-end-column="54" />
           <folding>
             <element signature="e#62#323#0" expanded="false" />
             <element signature="e#363#571#0" expanded="false" />
