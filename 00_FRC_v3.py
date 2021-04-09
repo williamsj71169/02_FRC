@@ -4,7 +4,7 @@ import pandas
 
 # ***** Functions Go Here *****
 
-# checks that input is either a float or an interger that is more that zero
+# checks that input is either a float or an integer that is more that zero
 # takes in custom error messages.
 def num_check(question, error, num_type):
     valid = False
@@ -105,7 +105,7 @@ def get_expenses(var_fixed):
     expense_frame = pandas.DataFrame(variable_dict)
     expense_frame = expense_frame.set_index('Item')
 
-    # calc cost of each component
+    # calculate cost of each component
     expense_frame['Cost'] = expense_frame['Quantity'] * expense_frame['Price']
 
     # find sub total
