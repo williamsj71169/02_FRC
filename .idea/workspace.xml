@@ -52,14 +52,15 @@
       <file leaf-file-name="00_FRC_v3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_FRC_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="841">
+              <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
               <folding>
                 <element signature="e#224#488#0" expanded="false" />
                 <element signature="e#569#911#0" expanded="false" />
                 <element signature="e#981#1189#0" expanded="false" />
                 <element signature="e#1241#1267#0" expanded="false" />
-                <element signature="e#1377#2871#0" expanded="false" />
+                <element signature="e#1375#2868#0" expanded="false" />
+                <element signature="e#2944#3097#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -151,8 +152,8 @@
         <option value="$PROJECT_DIR$/00_FRC.py" />
         <option value="$PROJECT_DIR$/02_variable_costs_v2.py" />
         <option value="$PROJECT_DIR$/03_fixed_costs_v1.py" />
-        <option value="$PROJECT_DIR$/00_FRC_v3.py" />
         <option value="$PROJECT_DIR$/00_FRC_v2.py" />
+        <option value="$PROJECT_DIR$/00_FRC_v3.py" />
       </list>
     </option>
   </component>
@@ -595,14 +596,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00_FRC_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="841">
+          <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
           <folding>
             <element signature="e#224#488#0" expanded="false" />
             <element signature="e#569#911#0" expanded="false" />
             <element signature="e#981#1189#0" expanded="false" />
             <element signature="e#1241#1267#0" expanded="false" />
-            <element signature="e#1377#2871#0" expanded="false" />
+            <element signature="e#1375#2868#0" expanded="false" />
+            <element signature="e#2944#3097#0" expanded="false" />
           </folding>
         </state>
       </provider>
