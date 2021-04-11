@@ -7,7 +7,7 @@ def round_up(amount, round_to):
 
 
 # Main Stuff
-to_round = [2.75, 2.25, 2].
+to_round = [2.75, 2.25, 2]
 
 for item in to_round:
     rounded = round_up(item, 5)
