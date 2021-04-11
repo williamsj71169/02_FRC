@@ -150,6 +150,7 @@ if have_fixed == "yes":
     fixed_sub = fixed_expenses[1]
 else:
     fixed_sub = 0
+    fixed_frame = 0
 
 #
 
