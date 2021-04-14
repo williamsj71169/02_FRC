@@ -82,11 +82,12 @@ def get_expenses(var_fixed):
 
         print()
         # get name, quantity and item
-        item_name = not_blank("Item name:", "The component name can't be blank.")
+        item_name = not_blank("* Item name:", "The component name can't be blank.")
 
         if item_name.lower() == "xxx":
             break
 
+        print()
         if var_fixed == "variable":
             quantity = num_check("Quantity:", "The amount must be a whole number more then zero", int)
 
@@ -140,6 +141,7 @@ def profit_goal(total_costs):
     while not valid:
 
         # ask for profit goal...
+        print()
         response = input("What is your profit goal (eg $500)")
         # check if first character is $...
         if response[0] == "$":
@@ -170,9 +172,11 @@ def profit_goal(total_costs):
             continue
 
         if profit_type == "unknown" and amount >= 100:
+            print()
             dollar_type = yes_no("Do you mean ${:.2f}. "
                                  "ie ${:.2f} dollars? ,"
                                  "y / n". format(amount, amount))
+            print()
 
             # set profit type based on user answer above
             if dollar_type == "yes":
@@ -233,15 +237,14 @@ def string_check(choice, options):
 def instructions(options):
     show_help = "invalid choice"
     while show_help == "invalid choice":
-        show_help = yes_no("Would you like to read the instructions? Yes / No")
+        show_help = yes_no("*** Would you like to read the instructions? (y/n) ")
         show_help = string_check(show_help, options)
 
     if show_help == "Yes":
         print()
         print("*** Instructions ***")
         print()
-        print("Answer the questions asked in the way you will be told to.")
-        print()
+        print("* Answer all the questions asked in the way you will be asked to. *")
 
     return ""
 
@@ -256,21 +259,22 @@ y_n = [
 instructions(y_n)
 
 # get product name
-prin()
-product_name = not_blank("Product name: ", "The product name can't be blank.")
+print()
+product_name = not_blank("* Product name: ", "The product name can't be blank.")
+print()
 
 how_many = num_check("How many items will you be producing?",
                      "The number of items must be a whole number more than zero", int)
 
 print()
-print("Please enter your variable costs below...")
+print("** Please enter your variable costs below...")
 # get variable costs
 variable_expenses = get_expenses("variable")
 variable_frame = variable_expenses[0]
 variable_sub = variable_expenses[1]
 
 print()
-have_fixed = yes_no("Do you have fixed costs (y/n)?")
+have_fixed = yes_no("** Do you have fixed costs (y/n)?")
 
 if have_fixed == "yes":
     # get fixed costs
