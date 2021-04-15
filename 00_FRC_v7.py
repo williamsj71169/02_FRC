@@ -294,16 +294,40 @@ sales_needed = all_costs + profit_target
 
 # ask user for rounding
 round_to = num_check("Round to nearest...? $", "Can't be zero", int)
+print()
 
 # calculate recommended price
 selling_price = sales_needed / how_many
-print("Selling Price (unrounded): ${:.2f}".format(selling_price))
+# print("Selling Price (unrounded): ${:.2f}".format(selling_price))
 
 # recommended price
 recommended_price = round_up(selling_price, round_to)
 
+# variable_frame = pandas.DataFrame(variable_dict)
+# fixed_frame = pandas.DataFrame(fixed_dict)
+
 
 # write data to file
+write_to_file = yes_no("Would you like the data writen to file? (y/n)")
+if write_to_file == "y":
+    variable_txt = pandas.DataFrame.to_string(variable_frame)
+
+    # write to file...
+    # create file to hold data (add .txt extension)
+    file_name = "{}.txt".format(product_name)
+    text_file = open(file_name, "w+")
+
+    # heading
+    text_file.write("*** Fund Raising - {}"
+                    "***\n\n".format(product_name))
+
+    text_file.write(variable_txt)
+
+    # close file
+    text_file.close()
+
+else:
+    print()
 
 # *** Printing area ***
 

@@ -37,8 +37,5 @@ text_file.write("*** Fund Raising - {}"
 
 text_file.write(variable_txt)
 
-#
-
-
 # close file
 text_file.close()
