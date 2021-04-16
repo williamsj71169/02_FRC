@@ -97,8 +97,6 @@ def get_expenses(var_fixed):
         print()
         price = num_check("How much for a single item? $", "The price must be a number <more than 0>", float)
 
-        #
-
         # add item, quantity and price to lists
         item_list.append(item_name)
         quantity_list.append(quantity)
@@ -303,13 +301,9 @@ selling_price = sales_needed / how_many
 # recommended price
 recommended_price = round_up(selling_price, round_to)
 
-# variable_frame = pandas.DataFrame(variable_dict)
-# fixed_frame = pandas.DataFrame(fixed_dict)
-
-
 # write data to file
-write_to_file = yes_no("Would you like the data writen to file? (y/n)")
-if write_to_file == "y":
+write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
+if write_to_file == "yes":
     variable_txt = pandas.DataFrame.to_string(variable_frame)
 
     # write to file...

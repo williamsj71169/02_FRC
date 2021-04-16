@@ -1,0 +1,6 @@
+*** Fund Raising - Custom ugs***
+
+        Item  Price  Quantity
+0       Mugs   1.00       300
+1   Printing   0.50       300
+2  Packaging   0.75        50
