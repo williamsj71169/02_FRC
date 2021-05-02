@@ -1,0 +1,14 @@
+*** Fund Raising - kjyhtgf***
+
+*** Variable Costs.... ***
+
+        Price  Quantity         Cost
+Item                                
+765   $876.00       876   $767376.00
+8976  $654.00      8765  $5732310.00*** Fixed Costs....***
+
+             Price  Quantity        Cost
+Item                                    
+867554      $86.00         1      $86.00
+7654    $123456.00         1  $123456.00*** Total Costs....***
+

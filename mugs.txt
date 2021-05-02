@@ -1,0 +1,11 @@
+mugs
+
+          Price  Quantity   Cost
+Item                            
+mug       $1.00         1  $1.00
+printing  $0.20         5  $1.00
+
+       Price  Quantity    Cost
+Item                          
+adds  $20.00         1  $20.00
+

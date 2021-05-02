@@ -1,0 +1,13 @@
+ZZZ
+
+        Price  Quantity     Cost
+Item                            
+Z     $100.00         1  $100.00
+Z      $10.00         1   $10.00
+Z       $1.00         1    $1.00
+xx      $1.00         1    $1.00
+
+       Price  Quantity    Cost
+Item                          
+glue  $10.00         1  $10.00
+

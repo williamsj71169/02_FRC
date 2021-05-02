@@ -1,0 +1,16 @@
+*** Fund Raising - Hello***
+
+*** Variable Costs.... ***
+
+       Price  Quantity     Cost
+Item                           
+H      $8.00        20  $160.00
+e      $5.00        20  $100.00
+l     $12.00        40  $480.00
+o     $15.00        20  $300.00
+
+*** Fixed Costs....***
+
+        Price  Quantity    Cost
+Item                           
+Voice  $20.00         1  $20.00

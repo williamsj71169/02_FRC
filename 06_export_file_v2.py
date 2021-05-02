@@ -25,6 +25,8 @@ profit_target = "$100.00"
 required_sales = "$200.00"
 recommended_price = "The Recommended price is $5.00"
 
+print(variable_frame)
+
 # list holding stuff to print / write to file
 to_write = [product_name, variable_txt, fixed_txt,
             profit_target, required_sales,
