@@ -1,0 +1,8 @@
+*** Fund Raising - Hi***
+
+      Price  Quantity     Cost
+Item                          
+H     $8.00        75  $600.00
+i     $9.00        75  $675.00              Price  Quantity    Cost
+Item                                 
+Back Boards  $75.00         1  $75.00
