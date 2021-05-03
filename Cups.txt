@@ -1,0 +1,19 @@
+*** Fund Raising - Cups *** 
+Cups
+
+          Price  Quantity     Cost
+Item                              
+Cup       $1.00       100  $100.00
+Printing  $0.50       100   $50.00
+
+          Price  Quantity    Cost
+Item                             
+rent     $65.00         1  $65.00
+printer  $85.00         1  $85.00
+
+Total Cost: $300.00 
+Profit & Sales Targets: 
+ Profit Target: $100.00 
+ Total Sales: $400.00Pricing: 
+ Minimum Price: $4.00 
+ Recommended Price: $4.00

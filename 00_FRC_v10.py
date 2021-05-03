@@ -317,9 +317,7 @@ if write_to_file == "yes":
                     "***\n\n".format(product_name))
 
     # list holding stuff to print / write to file
-    to_write = [product_name, variable_txt, fixed_txt,
-                profit_target,
-                recommended_price]
+    to_write = [, variable_txt, fixed_txt]
 
     print("To write..", to_write)
 
@@ -328,16 +326,32 @@ if write_to_file == "yes":
     file_name = "{}.txt".format(product_name)
     text_file = open(file_name, "w+")
 
+    title_write = "*** Fund Raising - {} *** \n".format(product_name)
+    text_file.write(title_write)
+
     # heading
     for item in to_write:
         text_file.write(str(item))
         text_file.write("\n\n")
+
+    total_cost_write = "Total Cost: ${:.2f} \n \n".format(all_costs)
+    text_file.write(total_cost_write)
+
+    profit_sales_write = "Profit & Sales Targets: \n \n Profit Target: ${:.2f} \n " \
+                         "Total Sales: ${:.2f} \n \n".format(profit_target, all_costs + profit_target)
+    text_file.write(profit_sales_write)
+
+    # pricing
+    pricing_write = "Pricing: \n \n Minimum Price: ${:.2f} \n " \
+                    "Recommended Price: ${:.2f}".format(selling_price, recommended_price)
+    text_file.write(pricing_write)
 
     # close file
     text_file.close()
 
 else:
     print()
+
 
 # *** Printing area ***
 

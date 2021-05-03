@@ -1,0 +1,23 @@
+*** Fund Raising - Cups 2 *** 
+Cups 2
+
+        Price  Quantity    Cost
+Item                           
+cup     $2.00         2   $4.00
+paints  $1.00        11  $11.00
+
+       Price  Quantity    Cost
+Item                          
+rent  $44.00         1  $44.00
+
+Total Cost: $59.00 
+ 
+Profit & Sales Targets: 
+ 
+ Profit Target: $10.00 
+ Total Sales: $69.00 
+ 
+Pricing: 
+ 
+ Minimum Price: $34.50 
+ Recommended Price: $35.00
