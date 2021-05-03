@@ -87,8 +87,8 @@ def get_expenses(var_fixed):
         if item_name.lower() == "xxx":
             break
 
-        print()
         if var_fixed == "variable":
+            print()
             quantity = num_check("Quantity:", "The amount must be a whole number more then zero", int)
 
         else:

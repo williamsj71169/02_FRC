@@ -1,11 +1,11 @@
-mugs
+Mugs
 
-          Price  Quantity   Cost
-Item                            
-mug       $1.00         1  $1.00
-printing  $0.20         5  $1.00
+          Price  Quantity     Cost
+Item                              
+mug       $1.00       100  $100.00
+printing  $0.50       110   $55.00
 
        Price  Quantity    Cost
 Item                          
-adds  $20.00         1  $20.00
+rent  $65.00         1  $65.00
 
