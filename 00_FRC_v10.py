@@ -62,8 +62,7 @@ def currency(x):
     return "${:.2f}".format(x)
 
 
-# gets expenses, returns list which has,
-# the data frame and sub total
+# gets expenses, returns list which has the data frame and sub total
 def get_expenses(var_fixed):
     # set up dictionary and lists
 
@@ -304,8 +303,12 @@ recommended_price = round_up(selling_price, round_to)
 # write data to file
 write_to_file = yes_no("Would you like the data writen to file? (y/n) ")
 if write_to_file == "yes":
+
     variable_txt = pandas.DataFrame.to_string(variable_frame)
-    fixed_txt = pandas.DataFrame.to_string(fixed_frame)
+    if have_fixed == "yes":
+        fixed_txt = pandas.DataFrame.to_string(fixed_frame)
+    else:
+        fixed_txt = 0
 
     # write to file...
     # create file to hold data (add .txt extension)
@@ -319,14 +322,12 @@ if write_to_file == "yes":
     # list holding stuff to print / write to file
     to_write = [variable_txt, fixed_txt]
 
-    print("To write..", to_write)
-
     # write to file...
     # create file to hold data (add .txt extension)
     file_name = "{}.txt".format(product_name)
     text_file = open(file_name, "w+")
 
-    title_write = "*** Fund Raising - {} *** \n".format(product_name)
+    title_write = "*** Fund Raising - {} *** \n \n".format(product_name)
     text_file.write(title_write)
 
     # heading

@@ -1,0 +1,19 @@
+*** Fund Raising - 8 *** 
+
+      Price  Quantity    Cost
+Item                         
+8     $8.00         8  $64.00
+
+0
+
+Total Cost: $64.00 
+ 
+Profit & Sales Targets: 
+ 
+ Profit Target: $888.00 
+ Total Sales: $952.00 
+ 
+Pricing: 
+ 
+ Minimum Price: $119.00 
+ Recommended Price: $120.00
