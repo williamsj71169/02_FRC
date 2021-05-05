@@ -317,7 +317,7 @@ if write_to_file == "yes":
                     "***\n\n".format(product_name))
 
     # list holding stuff to print / write to file
-    to_write = [, variable_txt, fixed_txt]
+    to_write = [variable_txt, fixed_txt]
 
     print("To write..", to_write)
 

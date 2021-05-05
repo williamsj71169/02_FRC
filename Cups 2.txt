@@ -1,5 +1,4 @@
 *** Fund Raising - Cups 2 *** 
-Cups 2
 
         Price  Quantity    Cost
 Item                           
