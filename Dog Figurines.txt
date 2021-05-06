@@ -1,0 +1,24 @@
+*** Fund Raising - Dog Figurines *** 
+ 
+           Price  Quantity    Cost
+Item                              
+dog clay  $10.00         3  $30.00
+paint     $10.00         2  $20.00
+eyes       $0.10       100  $10.00
+
+              Price  Quantity    Cost
+Item                                 
+rent         $50.00         1  $50.00
+advertising   $5.00         1   $5.00
+
+Total Cost: $115.00 
+ 
+Profit & Sales Targets: 
+ 
+ Profit Target: $230.00 
+ Total Sales: $345.00 
+ 
+Pricing: 
+ 
+ Minimum Price: $6.90 
+ Recommended Price: $8.00

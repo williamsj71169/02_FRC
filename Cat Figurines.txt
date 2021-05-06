@@ -1,0 +1,25 @@
+*** Fund Raising - Cat Figurines *** 
+ 
+           Price  Quantity     Cost
+Item                               
+cat clay  $10.00        20  $200.00
+paint      $1.00        30   $30.00
+collars    $0.50       100   $50.00
+eyes       $0.20       200   $40.00
+
+              Price  Quantity    Cost
+Item                                 
+rent         $50.00         1  $50.00
+advertising  $10.00         1  $10.00
+
+Total Cost: $380.00 
+ 
+Profit & Sales Targets: 
+ 
+ Profit Target: $500.00 
+ Total Sales: $880.00 
+ 
+Pricing: 
+ 
+ Minimum Price: $8.80 
+ Recommended Price: $10.00

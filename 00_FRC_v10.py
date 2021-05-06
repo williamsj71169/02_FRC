@@ -308,7 +308,7 @@ if write_to_file == "yes":
     if have_fixed == "yes":
         fixed_txt = pandas.DataFrame.to_string(fixed_frame)
     else:
-        fixed_txt = 0
+        fixed_txt = ""
 
     # write to file...
     # create file to hold data (add .txt extension)
